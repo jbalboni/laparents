@@ -1,0 +1,81 @@
+<!doctype html>
+
+<head>
+<title>{% block title %}{% endblock %}</title>
+<!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<link href="{{ url_for('static', filename='laparents.css') }}" title="normal" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="{{ url_for('static', filename='nivo-slider.css') }}" type="text/css" media="screen" />
+<script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script>
+<script src="{{ url_for('static', filename='jquery.nivo.slider.pack.js') }}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='menu.js') }}" type="text/javascript"></script>
+{% block scripts %}
+{% endblock %}
+</head>
+<body>
+<div id="container">
+<div id="header">
+<div id="header-text">Louisiana Parent Congress</div>
+</div>
+<div id="nav_menu"><ul class="topnav">
+  <li {% if cur_page == "Home" %}class="highlight"{% endif %}><a href="/">Home</a></li>
+  <li {% if cur_page == "About" %}class="highlight"{% endif %}>
+    <a href="#">About</a>
+    <ul id="about" class="subnav">
+      <li><a href="/about">About LPC</a></li>
+      <li><a href="/bylaws">Bylaws</a></li>
+      <li><a href="/parishes">Map with parishes</a></li>
+    </ul>
+  </li>
+  <li {% if cur_page == "Annual" %}class="highlight"{% endif %}>
+    <a href="#">Teach &amp; Learn</a>
+    <ul id="annual" class="subnav">
+        <li><a href="/meeting">Registration Information</a></li>
+        <li><a href="{{ url_for('static',filename='docs/registration_form.doc') }}">Registration Form</a></li>
+        <li><a href="/meeting/lodging">Lodging</a></li>
+        <li><a href="/meeting/agenda">Agenda</a></li>
+        <li><a href="/meeting/handouts">Past Presenter Handouts</a></li>
+    </ul>
+  </li>
+</ul></div>
+<div id="main">
+{% block content %}
+{% endblock %}
+<div id="footer">Contact Info<br/>
+<p>Janet Howell<br/>
+501 Elliott Street, Alexandria, LA 71301<br/>
+318-442-8891 | FAX 318-442-8178 |
+<script>
+<!--
+
+function escramble(){
+ var a,b,c,d,e,f,g,h,i
+ a='<a href=\"mai'
+ b='janet.howell'
+ c='\">'
+ a+='lto:'
+ b+='@'
+ e='</a>'
+ f=''
+ b+='rpsb.us'
+ g='<img src=\"'
+ h=''
+ i='\" alt="Email us." border="0">'
+
+ if (f) d=f
+ else if (h) d=g+h+i
+ else d=b
+
+ document.write(a+b+c+d+e)
+}
+
+escramble()
+
+//-->
+
+</script><br/></p></div>
+</div></div>
+</body>
+</html>

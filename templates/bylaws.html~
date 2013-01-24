@@ -1,0 +1,266 @@
+{% extends "base.html" %}
+{% block title %}Louisiana Parents Congress - Bylaws{% endblock %}
+{% block content %}
+
+<div class="page_header"><h1>Bylaws of the Louisiana Parent Congress</h1></div>
+<div id="content">
+<div class="full_box">
+<h2>Article I</h2>
+<div class="section_text">
+<span class="underline">Name</span>
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info">The name of this non-profit organization shall be the Louisiana Parent Congress [now referred to as LPC].</div>
+</div>
+</div></div>
+<div class="full_box">
+<h2>Article II</h2>
+<div class="section_text">
+<div class="labeled">
+<div class="label"><span class="underline">Purpose:</span></div>
+<div class="info">Concerned citizens building partnerships
+ to address critical issues that will have an
+ impact on education. The organization is
+ strictly prohibited from any involvement
+ in political races. The LPC will not make
+ any political endorsements.</div>
+</div>
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> To assure that the LPC shall have input 
+ into national, state and regional legislation
+ affecting services in schools in Louisiana.</div>
+</div> 
+<div class="labeled">
+<div class="label">Section 2.</div>
+<div class="info"> To serve as an advocate and voice for all
+ children. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 3.</div>
+<div class="info"> To coordinate and initiate sound and
+ meaningful ideas for program improvement
+ for all schools in Louisiana. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 4.</div>
+<div class="info"> To encourage local educational programs
+ [LEAs] to work harmoniously with family,
+ school, business, community and friends of
+ education. Also, to establish a partnership
+ promoting educational improvement in
+ Louisiana.</div>
+</div></div></div>
+<div class="full_box">
+<h2>Article III</h2>
+<div class="section_text">
+<span class="underline">Steering Committee</span> 
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> The Steering Committee shall be the
+ governing body of the LPC. This
+ includes All activities of the Congress. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 2.</div>
+<div class="info"> The Steering Committee shall consist of
+ members, officers and chairpersons of
+ the standing committees, consisting of no
+ more than twenty-five members. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 3.</div>
+<div class="info"> Members of the Steering Committee shall
+ appoint a chairperson to preside over the
+ business of the Committee. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 4.</div>
+<div class="info"> The Steering Committee will schedule
+ meetings accordingly, and upon request
+ of the President. </div>
+</div></div></div>
+<div class="full_box">
+<h2>Article IV</h2>
+<div class="section_text">
+<span class="underline">Membership</span>
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> Membership in the LPC shall consist of the following:
+ <ul>
+ <li>Family: Parents, Guardians, Grandparents</li>
+ <li>Schools: All Schools, Educators, Students, Day Care Providers, Head Start Agencies, Pre-K Service Providers, Vocational  Technical Schools, Even Start Agencies, Institution of Higher Learning</li>
+ <li>Business, Community, and Friends of Education: Chamber of Commerce, Department of Health & Hospitals,  Department of Social Services, Churches, Civic and Social Organizations, Print and Electronic Media, and other related Literacy Providers</li>
+ </ul></div>
+</div></div></div>
+<div class="full_box">
+<h2>Article V</h2>
+<div class="section_text">
+<span class="underline">Officers</span>
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> The officers of the LPC shall be:
+ <ul>
+ <li>President</li>
+ <li>Vice-President</li>
+ <li>Secretary</li>
+ <li>Treasurer</li>
+ </ul>
+ </div>
+</div>
+ 
+<div class="labeled">
+<div class="label">Section 2.</div>
+<div class="info"> All candidates for office shall be active
+ members in good standing of the LPC. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 3.</div>
+<div class="info"> The term for all officers shall be two
+ years commencing in even-numbered
+ years. No member shall hold more than
+ one office at the same time. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 4.</div>
+<div class="info"> If an office becomes vacant, the Steering
+ Committee and the President shall appoint
+ a replacement. </div>
+</div></div></div>
+<div class="full_box">
+<h2>Article VI</h2>
+<div class="section_text">
+<span class="underline">Duties of Officers</span>
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> President:
+  <ul>
+ <li>Shall be an active member and the chief executive officer of the LPC.</li>
+ <li>Shall preside at all sessions of the LPC provided that he/she may appoint any member to serve as presiding officer for a limited period, which shall not extend beyond adjournment each day.</li>
+ <li>Shall cause the LPC to proceed with its business in the proper order under the  rules, if a quorum is present, and to announce the business before the LPC  as the LPC proceeds upon each order of business.</li>
+ <li>Shall speak on points of order, in which case he/she shall have preference over other members.</li>
+ <li>Shall decide all points of order, subject to these Bylaws and Robert's Rules of Order.</li>
+ <li>Shall recognize members who seek the floor for the purpose of speaking in debate or otherwise.</li>
+ <li>Shall cast a vote when the Congress is equally divided; otherwise shall not be required to vote.</li>
+ </ul></div>
+</div>
+<div class="labeled">
+<div class="label">Section 2.</div>
+<div class="info"> Vice-President:
+ <ul>
+ <li>Shall be an active member of LPC and serve ex-officio as a member of each committee.</li>
+ <li>Shall at the discretion of the President, assist in his/her duties.</li>
+ <li>Shall in the absence of the President, preside or call a member of the Steering Committee to preside as Acting President.</li>
+ </ul></div>
+</div>
+<div class="labeled">
+<div class="label">Section 3.</div>
+<div class="info"> Secretary and Treasurer:
+ <ul>
+ <li>The duties of the secretary and treasurer of the Congress shall be an active member of LPC and those duties that are usually & customarily assigned & outlined in Robert's Rules of Order.</li>
+ </ul> </div> 
+</div></div></div>
+<div class="full_box">
+<h2>Article VII</h2>
+<div class="section_text">
+<span class="underline">Advisors to the Congress</span>
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> The Advisors to the Steering Committee / LPC
+ shall consist of the following:
+ <ul>
+ <li>Representative(s) from the State Department of Education in the area of Parent Involvement / Family Literacy and/or Child Welfare.</li>
+ <li>Former Speakers of the House & Speaker Pro-Tempore</li>
+ <li>Former Presidents</li></ul></div>
+</div>
+ 
+<div class="labeled">
+<div class="label">Section 2.</div>
+<div class="info"> The Advisors shall make recommendations
+ and provide information to the Steering
+ Committee & President concerning the affairs
+ of the LPC. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 3.</div>
+<div class="info"> The Advisors shall serve as ex-officio
+ members. </div>
+</div></div></div>
+<div class="full_box">
+<h2>Article VIII</h2>
+<div class="section_text">
+<span class="underline">Standing Committees</span>
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> The LPC shall consist of the following
+ Standing Committees:
+ <ul>
+ <li>Child / Parent Advocacy</li>
+ <li>EXPO</li>
+ <li>Legislative</li>
+ <li>Membership</li>
+ <li>Publicity</li></ul></div>
+</div>
+ 
+<div class="labeled">
+<div class="label">Section 2.</div>
+<div class="info"> Standing Committees shall consist of
+ representatives from the full membership. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 3.</div>
+<div class="info"> Each Standing Committee shall appoint
+ a chairperson.</div>
+</div>
+<div class="labeled">
+<div class="label">Section 4.</div>
+<div class="info"> Such other committees, standing or
+ special, shall be appointed by the
+ Steering Committee and / or the
+ President as deemed necessary to carry
+ on the work of the Congress. </div>
+</div>
+</div></div>
+<div class="full_box">
+<h2>Article IX</h2>
+<div class="section_text">
+<span class="underline">Amendment to Bylaws</span>
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> The Bylaws may be amended at any
+ meeting of the Steering Committee
+ provided the amendment has been
+ submitted in writing to the chairperson
+ of the Steering Committee. </div>
+</div>
+<div class="labeled">
+<div class="label">Section 2.</div>
+<div class="info"> All proposed amendments to the Bylaws
+ require a simple majority of the
+ membership of the LPC. </div>
+</div>
+</div></div>
+<div class="full_box">
+<h2>Article X</h2>
+<div class="section_text">
+<span class="underline">Dues</span> 
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> The dues of the LPC shall be three
+ dollars per individual, per calendar
+ year. </div>
+</div></div></div>
+<div class="full_box">
+<h2>Article XI</h2>
+<div class="section_text">
+<div class="labeled">
+<div class="label">Section 1.</div>
+<div class="info"> The rules contained in the current
+ edition of Robert's Rules of Order
+ shall guide the LPC in all cases to
+ which no stipulations are provided
+ in the bylaws. </div>
+</div>
+</div></div>
+</div></div>
+{% endblock %}
