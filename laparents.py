@@ -1,5 +1,6 @@
 from flask import Flask,render_template
 app = Flask(__name__) #, static_folder=None)
+app.config.from_envvar('LAPARENTS_SETTINGS')
 #app.config.from_object(__name__)
 #app.add_url_rule('/<path:filename>', endpoint='static',
 #                 view_func=app.send_static_file, subdomain='static')
@@ -45,5 +46,4 @@ def parishes():
     return render_template('parishes.html', cur_page="About")
     
 if __name__ == "__main__":
-    app.debug = True
     app.run()
