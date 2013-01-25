@@ -1,9 +1,14 @@
 from flask import Flask,render_template
-app = Flask(__name__) #, static_folder=None)
+app = Flask(__name__,static_folder=None)
 app.config.from_envvar('LAPARENTS_SETTINGS')
-#app.config.from_object(__name__)
-#app.add_url_rule('/<path:filename>', endpoint='static',
-#                 view_func=app.send_static_file, subdomain='static')
+if app.config['PRODUCTION']:
+    app.static_folder=None
+    app.add_url_rule('/<path:filename>', endpoint='static',
+    view_func=app.send_static_file, subdomain='static')
+else:
+    app.static_folder='static'
+    app.add_url_rule('/<path:filename>', endpoint='static',
+    view_func=app.send_static_file)
 
 @app.route("/")
 @app.route("/index.php")
